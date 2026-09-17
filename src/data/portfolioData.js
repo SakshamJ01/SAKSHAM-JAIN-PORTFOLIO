@@ -2,7 +2,7 @@ export const PERSONAL_INFO = {
   name: "SAKSHAM JAIN",
   title: "Computer Science & Engineering Student · Software Developer",
   institution: "SKIT Jaipur",
-  graduation: "Expected 2029",
+  graduation: "2025–2029",
   location: "Jaipur, India",
   timezone: "IST (UTC+5:30)",
   coordinates: "26.9124° N, 75.7873° E",
@@ -104,7 +104,7 @@ export const PROJECTS = [
     type: "PRIMARY LANDMARK",
     name: "AssetArray",
     category: "FULL-STACK · FINTECH · AI",
-    description: "A comprehensive wealth management platform combining portfolio analytics, risk intelligence, AI-assisted decision support, secure data workflows, cloud synchronization, and financial tools.",
+    description: "Full-stack wealth-management platform combining portfolio analytics, risk intelligence, AI-assisted decision support, secure data workflows and cloud synchronization.",
     technologies: [
       "React Native / Expo",
       "TypeScript",
@@ -128,7 +128,7 @@ export const PROJECTS = [
     type: "SECONDARY LANDMARK",
     name: "Simulation-Alchemist",
     category: "SCIENTIFIC COMPUTING · PYTHON · SYSTEMS",
-    description: "A Python simulation composition framework connecting reaction-diffusion, physics, and agent-based systems through a deterministic feedback loop.",
+    description: "Python simulation-composition framework connecting reaction-diffusion, physics and agent-based systems through a deterministic feedback loop.",
     technologies: [
       "Python",
       "py-pde",
@@ -148,7 +148,7 @@ export const PROJECTS = [
     type: "SECONDARY LANDMARK",
     name: "The Six Yards",
     category: "EDITORIAL COMMERCE · FRONTEND · RETAIL",
-    description: "A responsive fashion e-commerce experience built around deliberate collections, bespoke product flows, and persistent client-side state.",
+    description: "Responsive fashion e-commerce experience built with React and Vite, featuring collections, product pages, cart functionality and persistent client-side state.",
     technologies: [
       "React",
       "Vite",
