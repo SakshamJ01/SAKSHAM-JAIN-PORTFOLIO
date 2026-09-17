@@ -1,0 +1,203 @@
+<!DOCTYPE html><html class="h-full scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>About — Saksham Jain</title>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#142132',
+              gold: '#E8C58D',
+              amber: '#D4A373',
+              slate: '#76949F',
+              ivory: '#FAF8F5'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+<style data-purpose="custom-typography">
+    /* Subtle editorial adjustments */
+    .font-editorial-serif {
+      font-feature-settings: "lnum", "liga", "swsh";
+    }
+    .text-balance {
+      text-wrap: balance;
+    }
+  </style>
+<style data-purpose="scenery-layering">
+    /* Atmospheric overlay for cinematic legibility without destroying landscape integrity */
+    .sky-subtle-glow {
+      background: linear-gradient(
+        180deg,
+        rgba(250, 248, 245, 0.45) 0%,
+        rgba(250, 248, 245, 0.20) 45%,
+        rgba(250, 248, 245, 0.0) 75%,
+        rgba(20, 33, 50, 0.08) 100%
+      );
+    }
+  </style>
+</head>
+<body class="min-h-screen text-brand-navy font-sans antialiased bg-brand-ivory relative overflow-x-hidden selection:bg-brand-gold/30 selection:text-brand-navy flex flex-col justify-between">
+<!-- BEGIN: ContinuousLandscapeBackground -->
+<!-- Natural morning continuation with tranquil horizon and water line in lower third -->
+<div aria-hidden="true" class="fixed inset-0 pointer-events-none z-0">
+<img alt="Cinematic fine art landscape photography continuing seamlessly from the previous morning dawn horizon. The sun has risen slightly higher in the pale morning sky, casting a slightly brighter, clearer soft golden warmth over a tranquil, calm mirror-like reflective water surface in the lower third. Atmosphere is pristine, serene, slightly clearer morning light, soft warm ivory and pale sky blue transitioning into clear misty horizon, subtle rippling calm water reflection. Minimalist, spacious open negative space for editorial typography overlay, completely uncluttered, tranquil natural landscape continuation." class="w-full h-full object-cover object-center transform scale-100" src="https://lh3.googleusercontent.com/aida/AEtjO1XMq6jIih9Hp9WbJRY2H-3-TZSveOYyuT9kyEpTdrN_uSA3bmyAHbV_VqyNEgnj5s9_uirbWnv-0QQ9eucIPbR-q0nQt_bh3KEOY2wNe19QvV2Ou6Eky5vBaHAadPfYIQP2NjtPkGdLhxaWvSjFLYdmpXsGSM03yk-_JujTdbHY8vVfTS5hM28z4WgXlPNq2ukSXQUIme4TSE9yy4ry4Zj2ThBsNffaLhv6YJBJIu1c7gB3rVKnFnlp8YEB">
+<!-- Delicate ethereal ambient tint overlay preserving natural morning sun glow -->
+<div class="absolute inset-0 sky-subtle-glow"></div>
+</div>
+<!-- END: ContinuousLandscapeBackground -->
+<!-- BEGIN: MainHeader -->
+<header class="relative z-20 w-full pt-8 sm:pt-10 px-6 sm:px-12 lg:px-20 tracking-wider">
+<div class="max-w-7xl mx-auto flex items-center justify-between border-b border-brand-navy/10 pb-6">
+<!-- Brand & Identity Mark -->
+<a aria-label="Saksham Jain Home" class="group flex items-center space-x-3.5 focus:outline-none" href="#hero">
+<div class="w-8 h-8 transition-transform duration-500 ease-out group-hover:rotate-45" data-purpose="identity-emblem"><img src="https://lh3.googleusercontent.com/aida/AEtjO1VUDfcLjZYycES0-7ODcqmI2rtPME1xJ7KZuc91cxiyMBu8y-QXzDFrnXZKDlGWuKQkaSyBlnycprivrW8ei84P9duTwCTurnr7QHQCGKF4iCQtXbhf2i84mzTBN6-Z7mxtLPSQLeTKM54fBOJjL8lWz3iXuyRxgc7iLVafgTUoTaA2QYgz0GjJzzG0cBU51vWoww3EMmZMHms1relIq8kfjMB23Q2uhIEUywMDBb33-H5wXuYw7CdjQy-p" alt="Saksham Jain Monogram" class="w-8 h-8 object-cover rounded-full"></div>
+<div class="flex flex-col">
+<span class="text-xs sm:text-sm font-semibold tracking-[0.28em] text-brand-navy">SAKSHAM JAIN</span>
+<span class="text-[9px] tracking-[0.32em] text-brand-navy/50 font-medium">PORTFOLIO</span>
+</div>
+</a>
+<!-- Understated Navigation -->
+<nav aria-label="Main Navigation" class="hidden md:flex items-center space-x-9 text-xs tracking-[0.2em] font-medium">
+<a class="text-brand-navy relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1.5px] after:bg-brand-amber transition-colors" href="#about">
+          ABOUT
+        </a>
+<a class="text-brand-navy/60 hover:text-brand-navy transition-colors py-1" href="#skills">
+          SKILLS
+        </a>
+<a class="text-brand-navy/60 hover:text-brand-navy transition-colors py-1" href="#projects">
+          PROJECTS
+        </a>
+<a class="text-brand-navy/60 hover:text-brand-navy transition-colors py-1" href="#contact">
+          CONTACT
+        </a>
+</nav>
+<!-- Environmental Horizon & Chapter Marker -->
+<div class="flex items-center space-x-3 text-brand-navy/70">
+<div aria-hidden="true" class="w-1.5 h-1.5 rounded-full bg-brand-amber animate-pulse"></div>
+<span class="text-[11px] tracking-[0.22em] uppercase font-mono font-normal">CHAPTER 02 · 07:45 AM</span>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: AboutEditorialMain -->
+<main class="relative z-10 flex-grow flex flex-col justify-center px-6 sm:px-12 lg:px-20 py-12 lg:py-16 max-w-7xl mx-auto w-full">
+<!-- Section Indicator Tag -->
+<div class="mb-8 lg:mb-12 flex items-center space-x-3" data-purpose="chapter-indicator"><span class="text-xs tracking-[0.25em] font-medium text-brand-navy/60 uppercase font-sans">02 / CHAPTER</span><span class="w-6 h-[1px] bg-brand-navy/20"></span><span class="text-xs tracking-[0.25em] font-medium text-brand-amber uppercase font-sans">ABOUT</span></div>
+<!-- Editorial Statement Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
+<!-- Left Column: Primary Manifesto Serif Statement -->
+<div class="lg:col-span-6 lg:pr-4" data-purpose="editorial-primary-heading">
+<h1 class="font-serif font-editorial-serif text-5xl sm:text-6xl lg:text-7xl font-light leading-[1.08] text-brand-navy tracking-tight text-balance">
+          I like <span class="italic font-normal text-brand-navy/95">building</span> things.
+        </h1>
+<p class="mt-4 font-serif italic text-xl sm:text-2xl text-brand-slate/90 font-light tracking-wide">
+          Turning curiosities into quiet, resilient software.
+        </p>
+</div>
+<!-- Right Column: Narrative Copy with Generous Breathing Space -->
+<div class="lg:col-span-6 lg:pt-2" data-purpose="editorial-body-narrative">
+<p class="text-base sm:text-lg lg:text-xl font-normal leading-relaxed text-brand-navy/80 max-w-xl">
+          I’m a Computer Science &amp; Engineering student at <span class="text-brand-navy font-medium border-b border-brand-amber/40 pb-0.5">SKIT Jaipur</span> who learns by creating. I enjoy turning ideas into working software, experimenting with new technologies, and understanding how systems work beneath the surface.
+        </p>
+<p class="mt-4 text-sm sm:text-base font-normal leading-relaxed text-brand-navy/65 max-w-lg">
+          Whether designing elegant interfaces or architecting decoupled backend services, my focus stays rooted in simplicity, deliberate detail, and lasting utility.
+        </p>
+</div>
+</div>
+<!-- BEGIN: UnderstatedInformationBlocks -->
+<!-- Horizontal metadata triad separated by subtle airy columns -->
+<div class="mt-16 sm:mt-20 lg:mt-24 pt-10 border-t border-brand-navy/15" data-purpose="info-triad">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-14">
+<!-- Block 01: Education -->
+<div class="flex flex-col space-y-2 group">
+<div class="flex items-center space-x-2 text-xs font-mono tracking-widest text-brand-amber font-medium">
+<span class="">01</span>
+<span class="w-2 h-[1px] bg-brand-amber/60"></span>
+<span class="tracking-[0.25em] text-brand-navy/55 uppercase font-sans font-semibold">EDUCATION</span>
+</div>
+<h2 class="text-base sm:text-lg font-medium text-brand-navy leading-snug">
+            B.Tech — Computer Science &amp; Engineering
+          </h2>
+<div class="text-sm text-brand-navy/70 font-normal">
+            SKIT Jaipur
+          </div>
+<span class="text-xs font-mono text-brand-navy/45 tracking-wider pt-1">
+            2025 — 2029
+          </span>
+</div>
+<!-- Block 02: Focus -->
+<div class="flex flex-col space-y-2 group">
+<div class="flex items-center space-x-2 text-xs font-mono tracking-widest text-brand-amber font-medium">
+<span class="">02</span>
+<span class="w-2 h-[1px] bg-brand-amber/60"></span>
+<span class="tracking-[0.25em] text-brand-navy/55 uppercase font-sans font-semibold">FOCUS</span>
+</div>
+<ul class="space-y-1.5 text-base sm:text-lg font-normal text-brand-navy leading-snug">
+<li class="flex items-center space-x-2.5">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-slate/40"></span>
+<span class="">Software Development</span>
+</li>
+<li class="flex items-center space-x-2.5">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-slate/40"></span>
+<span class="">Full-Stack Development</span>
+</li>
+<li class="flex items-center space-x-2.5">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-slate/40"></span>
+<span class="">AI &amp; Experiments</span>
+</li>
+</ul>
+</div>
+<!-- Block 03: Location & Coordinates -->
+<div class="flex flex-col space-y-2 group">
+<div class="flex items-center space-x-2 text-xs font-mono tracking-widest text-brand-amber font-medium">
+<span class="">03</span>
+<span class="w-2 h-[1px] bg-brand-amber/60"></span>
+<span class="tracking-[0.25em] text-brand-navy/55 uppercase font-sans font-semibold">BASED IN</span>
+</div>
+<h2 class="text-base sm:text-lg font-medium text-brand-navy leading-snug">
+            Jaipur, India
+          </h2>
+<p class="text-sm text-brand-navy/70 leading-relaxed font-normal">
+            Available globally for remote collaboration
+          </p>
+<span class="text-xs font-mono text-brand-navy/45 tracking-wider pt-1">
+            IST (UTC+5:30) · 26.9124° N, 75.7873° E
+          </span>
+</div>
+</div>
+</div>
+<!-- END: UnderstatedInformationBlocks -->
+</main>
+<!-- END: AboutEditorialMain -->
+<!-- BEGIN: HorizonFooterSurface -->
+<!-- Rests gracefully above the morning calm reflective water line -->
+<footer class="relative z-10 w-full px-6 sm:px-12 lg:px-20 pb-8 sm:pb-12 pt-6">
+<div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 border-t border-brand-navy/10 pt-6">
+<!-- Editorial Loop Philosophy Quote -->
+<div class="flex items-center space-x-3 text-xs sm:text-sm font-serif italic text-brand-navy/75 tracking-wider" data-purpose="manifesto-quote">
+<span class="text-brand-amber font-mono not-italic text-xs">✦</span>
+<span class="tracking-wide">“Build → Break → Understand → Build Again”</span>
+</div>
+<!-- Continuation Prompt to Selected Work -->
+<a class="group inline-flex items-center space-x-2.5 text-[11px] tracking-[0.24em] font-medium text-brand-navy/70 hover:text-brand-navy transition-all duration-300 uppercase py-1" data-purpose="scroll-cue" href="#skills"><span class="">CONTINUE TO SKILLS</span><span class="transform transition-transform duration-300 group-hover:translate-y-1 text-xs">↓</span></a>
+</div>
+</footer>
+<!-- END: HorizonFooterSurface -->
+
+
+</body></html>

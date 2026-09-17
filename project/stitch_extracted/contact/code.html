@@ -1,0 +1,199 @@
+<!DOCTYPE html><html class="h-full bg-[#050A12]" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Saksham Jain — Contact (Night)</title>
+<!-- Google Fonts: Playfair Display & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Inter"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          },
+          colors: {
+            moonlight: '#D9E3EA',
+            starlight: '#B8C3CC',
+            ink: '#080D14',
+            gold: {
+              accent: '#E5A962',
+              soft: '#DFA486',
+            }
+          },
+          letterSpacing: {
+            widest: '0.22em',
+            ultra: '0.3em',
+          }
+        }
+      }
+    };
+  </script>
+<!-- BEGIN: Custom Styling for Typography & Subtle Vignette -->
+<style data-purpose="typography-refinement">
+    body {
+      font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+<style data-purpose="atmosphere-layers">
+    /* Subtle editorial vignette to ensure supreme typographic contrast across diverse displays */
+    .moonlight-overlay {
+      background: radial-gradient(
+        ellipse 75% 65% at 50% 48%,
+        rgba(5, 10, 18, 0.28) 0%,
+        rgba(4, 8, 15, 0.65) 75%,
+        rgba(2, 5, 10, 0.85) 100%
+      );
+    }
+  </style>
+<!-- END: Custom Styling -->
+</head>
+<body class="h-full relative font-sans text-moonlight select-none overflow-x-hidden flex flex-col justify-between">
+<!-- BEGIN: Cinematic Background Layer -->
+<div class="fixed inset-0 -z-20 w-full h-full overflow-hidden" data-purpose="background-canvas">
+<!-- Cinematic tranquil moonlit seascape image -->
+<img alt="Tranquil quiet moonlit night sea horizon with soft moon and silvery reflection" class="w-full h-full object-cover object-center transform scale-[1.01]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYcy6KFEnlbY3gOsIAYaKmtLmEpipJQ2rs8cC7PgCoQiUFNQKquJJcPHE9V9Lvcu8KBiLrzZhqihi_UEuwAdmImSrf3erplYFEchgl5bzHR74sgUUAxMOGi2ZWTzAd0y0piqwG-vsOQ07skg1vMK8cmGxy-WcG42UAfsUgzyiGbl_ap-YfyG4wW48n5DJD2bSdsR86oW2SOIqluaJiCusB_4pXoH-frjvniW_voqxKo4eyGGPwDM4qfw">
+</div>
+<!-- Subtle Atmospheric Gradient Overlay -->
+<div aria-hidden="true" class="fixed inset-0 -z-10 moonlight-overlay pointer-events-none" data-purpose="light-attenuation"></div>
+<!-- END: Cinematic Background Layer -->
+<!-- BEGIN: Editorial Header Navigation -->
+<header class="w-full pt-8 pb-6 px-8 md:px-14 lg:px-20 z-20" data-purpose="header-navigation">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<!-- Brand Monogram & Name -->
+<a class="group flex items-center gap-3.5 focus:outline-none focus-visible:ring-1 focus-visible:ring-moonlight/40 rounded-sm" href="#dawn">
+<span class="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center overflow-hidden group-hover:border-white/50 transition-colors"><img src="https://lh3.googleusercontent.com/aida/AEtjO1VUDfcLjZYycES0-7ODcqmI2rtPME1xJ7KZuc91cxiyMBu8y-QXzDFrnXZKDlGWuKQkaSyBlnycprivrW8ei84P9duTwCTurnr7QHQCGKF4iCQtXbhf2i84mzTBN6-Z7mxtLPSQLeTKM54fBOJjL8lWz3iXuyRxgc7iLVafgTUoTaA2QYgz0GjJzzG0cBU51vWoww3EMmZMHms1relIq8kfjMB23Q2uhIEUywMDBb33-H5wXuYw7CdjQy-p" alt="Monogram" class="w-full h-full object-cover"></span>
+<div class="flex flex-col">
+<span class="text-[11px] uppercase tracking-ultra font-medium text-white/95">Saksham Jain</span>
+<span class="text-[9px] uppercase tracking-widest text-[#8F9CA7] font-light">Portfolio</span>
+</div>
+</a>
+<!-- Chapter Navigation Links -->
+<nav aria-label="Portfolio chapters" class="hidden md:flex items-center gap-9 text-[11px] tracking-ultra uppercase font-normal text-[#9FB0BE]">
+<a class="hover:text-white transition-colors duration-200" href="#about">About</a>
+<a class="hover:text-white transition-colors duration-200" href="#skills">Skills</a>
+<a class="hover:text-white transition-colors duration-200" href="#projects">Projects</a>
+<a aria-current="page" class="text-white font-medium flex items-center gap-1.5 relative group" href="#contact">
+<span class="">Contact</span>
+<!-- Active gold-toned chapter indicator dot -->
+<span class="w-1 h-1 rounded-full bg-gold-accent inline-block shadow-[0_0_6px_#E5A962]"></span>
+</a>
+</nav>
+<!-- Atmosphere & Temporal Chapter Indicator -->
+<div class="flex items-center gap-2.5 text-[10px] tracking-widest uppercase text-starlight/80"><span class="w-1.5 h-1.5 rounded-full bg-moonlight/90 shadow-[0_0_8px_rgba(217,227,234,0.9)] animate-pulse"></span>
+<span class="font-light">CHAPTER 06 <span class="text-white/30 mx-1">·</span> 10:45 PM</span></div>
+</div>
+</header>
+<!-- END: Editorial Header Navigation -->
+<!-- BEGIN: Main Editorial Composition -->
+<main class="flex-grow flex flex-col justify-center items-center px-6 md:px-12 z-10 py-10 md:py-14 text-center" data-purpose="editorial-contact-stage">
+<div class="max-w-3xl mx-auto flex flex-col items-center">
+<!-- Chapter Sub-badge with Hairlines -->
+<div class="flex items-center justify-center gap-3.5 mb-7 w-full" data-purpose="chapter-marker">
+<span aria-hidden="true" class="h-[1px] w-8 md:w-16 bg-gradient-to-r from-transparent via-white/25 to-white/10"></span>
+<p class="text-[10px] md:text-[11px] uppercase tracking-[0.25em] text-[#9EACB8] font-medium">
+          06 / NIGHT — CONTACT
+        </p>
+<span aria-hidden="true" class="h-[1px] w-8 md:w-16 bg-gradient-to-l from-transparent via-white/25 to-white/10"></span>
+</div>
+<!-- Main Headline in Playfair Display -->
+<h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[68px] text-[#FBF9FA] font-normal leading-[1.12] tracking-tight mb-5">
+        Let’s keep <span class="italic font-light text-moonlight">building.</span>
+</h1>
+<!-- Supporting Statement -->
+<p class="text-sm md:text-base text-[#B3C0CB] font-light max-w-[560px] leading-relaxed tracking-wide mb-10">
+        I’m always interested in learning, experimenting, and turning interesting ideas into working software.
+      </p>
+<!-- Primary Action Buttons -->
+<div class="flex flex-col sm:flex-row items-center gap-4 mb-12" data-purpose="action-buttons">
+<!-- Primary Action: Get in touch -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-xs font-medium uppercase tracking-widest bg-moonlight text-ink rounded-full hover:bg-white transition-all duration-300 shadow-[0_4px_24px_rgba(217,227,234,0.18)] hover:shadow-[0_6px_30px_rgba(255,255,255,0.28)] transform hover:-translate-y-0.5 active:translate-y-0" href="mailto:jainsaksham8b@gmail.com">
+          Get in touch
+        </a>
+<!-- Secondary Action: GitHub -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 text-xs font-medium uppercase tracking-widest text-moonlight border border-white/20 hover:border-white/40 hover:text-white rounded-full transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 backdrop-blur-[2px]" href="https://github.com/SakshamJ01" rel="noopener noreferrer" target="_blank">
+<span class="">View GitHub</span>
+<svg aria-hidden="true" class="w-3.5 h-3.5 opacity-80" fill="currentColor" viewBox="0 0 16 16">
+<path d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" fill-rule="evenodd"></path>
+</svg>
+</a>
+</div>
+<!-- Restrained Direct Details Architecture -->
+<div class="pt-8 border-t border-white/10 w-full max-w-xl flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-[11px] tracking-widest text-[#93A2B0]" data-purpose="direct-contact-channels">
+<!-- Email with mail indicator -->
+<a class="hover:text-white transition-colors duration-200 flex items-center gap-1.5 group" href="mailto:jainsaksham8b@gmail.com">
+<span class="text-gold-accent text-xs group-hover:translate-x-0.5 transition-transform duration-200">@</span>
+<span class="font-normal text-[#C4D0DB] group-hover:text-white">jainsaksham8b@gmail.com</span>
+</a>
+<span class="hidden sm:inline text-white/20 font-thin">|</span>
+<!-- GitHub Profile -->
+<a class="hover:text-white transition-colors duration-200 flex items-center gap-1 group" href="https://github.com/SakshamJ01" rel="noopener noreferrer" target="_blank">
+<span class="">github.com/SakshamJ01</span>
+<span class="text-[9px] opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200">↗</span>
+</a>
+<span class="hidden sm:inline text-white/20 font-thin">|</span>
+<!-- LinkedIn -->
+<a class="hover:text-white transition-colors duration-200 flex items-center gap-1 group" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+<span class="">LinkedIn</span>
+<span class="text-[9px] opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200">↗</span>
+</a>
+<div class="w-full text-center mt-2">
+<p class="text-[10px] uppercase tracking-widest text-[#788896]">
+            Based in Jaipur, India <span class="text-white/30 mx-1">·</span> IST (UTC+5:30)
+          </p>
+</div>
+</div>
+</div>
+</main>
+<!-- END: Main Editorial Composition -->
+<!-- BEGIN: Horizon Line Footer -->
+<footer class="w-full pb-7 pt-4 px-8 md:px-14 lg:px-20 z-20" data-purpose="horizon-footer">
+<div class="max-w-7xl mx-auto border-t border-white/10 pt-5 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] uppercase tracking-ultra text-[#7A8A99]">
+<!-- Footer Left: Place & Philosophy -->
+<div class="flex items-center gap-2">
+<span class="text-white/60">Jaipur, India</span>
+<span class="text-white/20">·</span>
+<span class="text-[#8999A8]">Crafted with purpose &amp; restraint</span>
+</div>
+<!-- Footer Center: Journey Conclusion & Top anchor -->
+<div class="flex items-center gap-2">
+<a class="group flex items-center gap-1 text-starlight hover:text-white transition-colors duration-200" href="#dawn">
+<span class="">Journey Concluded · Dawn to Moonlight</span>
+<span class="group-hover:-translate-y-0.5 transition-transform duration-200 text-gold-accent">↑</span>
+</a>
+</div>
+<!-- Footer Right: Horizon Metric Telemetry -->
+<div class="flex items-center gap-2 font-mono text-[9px] tracking-wider text-[#6B7C8C]">
+<span class="">HORIZON: CALM</span>
+<span class="text-white/20">/</span>
+<span class="">MOONLIGHT: 24.2°</span>
+</div>
+</div>
+</footer>
+<!-- END: Horizon Line Footer -->
+<!-- BEGIN: Subtle Key Interactions Script -->
+<script data-purpose="interaction-enhancement">
+    document.addEventListener('DOMContentLoaded', () => {
+      // Smooth scroll back to top when Return to Dawn is triggered
+      const returnBtn = document.querySelector('a[href="#dawn"]');
+      if (returnBtn) {
+        returnBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      }
+    });
+  </script>
+<!-- END: Subtle Key Interactions Script -->
+
+
+</body></html>

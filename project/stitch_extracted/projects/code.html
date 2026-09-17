@@ -1,0 +1,358 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Saksham Jain — Projects Chapter (Late Afternoon Horizon)</title>
+<!-- Tailwind CSS v3 with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Playfair Display & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+          colors: {
+            ink: {
+              DEFAULT: '#14202D',
+              deep: '#172433',
+              muted: '#687581',
+              light: '#8E9BA7'
+            },
+            ivory: {
+              DEFAULT: '#F5F1E8',
+              pure: '#FCFBF8',
+              translucent: 'rgba(245, 241, 232, 0.85)'
+            },
+            amber: {
+              sun: '#F1CF98',
+              gold: '#E7C49D',
+              accent: '#D4AF37'
+            },
+            water: {
+              pale: '#9FC3CF',
+              mist: '#91AEB7'
+            }
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Style Declarations -->
+<style data-purpose="custom-typography">
+    .font-editorial-serif {
+      font-feature-settings: "liga", "dlig", "kern";
+      letter-spacing: -0.015em;
+    }
+    .letter-spaced-subhead {
+      letter-spacing: 0.18em;
+    }
+    .letter-spaced-wide {
+      letter-spacing: 0.22em;
+    }
+  </style>
+<style data-purpose="backdrop-and-surfaces">
+    /* Subtle editorial glassmorphism and atmospheric card surfaces */
+    .glass-surface-landmark {
+      background: rgba(255, 255, 255, 0.42);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.65);
+      box-shadow: 0 20px 40px -15px rgba(30, 41, 59, 0.04), 0 1px 3px rgba(30, 41, 59, 0.02);
+    }
+    .glass-surface-secondary {
+      background: rgba(255, 255, 255, 0.35);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.55);
+      box-shadow: 0 16px 32px -12px rgba(30, 41, 59, 0.03);
+    }
+    .water-line-divider {
+      background: linear-gradient(90deg, transparent 0%, rgba(20, 32, 45, 0.12) 20%, rgba(20, 32, 45, 0.12) 80%, transparent 100%);
+    }
+  </style>
+<!-- END: Style Declarations -->
+</head>
+<body class="font-sans text-ink antialiased bg-[#F3EDE2] relative selection:bg-amber-gold/30 selection:text-ink min-h-screen">
+<!-- BEGIN: Continuous Atmospheric Background -->
+<!-- Seamless landscape backdrop transitioning toward golden hour reflection -->
+<div aria-hidden="true" class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+<img alt="Cinematic fine art landscape photography of late afternoon sun reflected over calm water" class="w-full h-full object-cover object-center opacity-75 transform scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1Wy8-ycOkV__6-E32uyRXrixdwXYzRrfoULoyRLuURarI5rct03zJnAEdgB7RTmic1m2D3Uuatti5MXQtCMBv1QXbGjmT0KZh27nWucxGg8mIoZz8mjlq7a79n8wnasiV5sBRoS52wOrEGhcf_-d8uPj3WubfHhgdkyKcgG-j8mJBDxJLzwOvMIVTuNBMnpoe9A49Ir7LMK1ZLnZbdYsMMKrsTX0fm2weZ18h0KvO-W5evAFO70cKeoPuU">
+<!-- Subtle gradient wash to preserve perfect textual contrast and editorial tone -->
+<div class="absolute inset-0 bg-gradient-to-b from-[#F5F1E8]/70 via-transparent to-[#F2ECE1]/80"></div>
+</div>
+<!-- END: Continuous Atmospheric Background -->
+<!-- BEGIN: Site Header -->
+<header class="relative z-30 w-full px-6 md:px-12 lg:px-20 py-8 flex items-center justify-between border-b border-ink/5 max-w-7xl mx-auto">
+<!-- Brand Identity -->
+<div class="flex items-center gap-3.5 group cursor-pointer" data-purpose="site-branding">
+<div class="w-8 h-8 rounded-full overflow-hidden flex items-center justify-center transition-transform duration-500 group-hover:scale-105"><img src="https://lh3.googleusercontent.com/aida/AEtjO1VUDfcLjZYycES0-7ODcqmI2rtPME1xJ7KZuc91cxiyMBu8y-QXzDFrnXZKDlGWuKQkaSyBlnycprivrW8ei84P9duTwCTurnr7QHQCGKF4iCQtXbhf2i84mzTBN6-Z7mxtLPSQLeTKM54fBOJjL8lWz3iXuyRxgc7iLVafgTUoTaA2QYgz0GjJzzG0cBU51vWoww3EMmZMHms1relIq8kfjMB23Q2uhIEUywMDBb33-H5wXuYw7CdjQy-p" alt="Saksham Jain Monogram" class="w-full h-full object-cover rounded-full"></div>
+<div class="flex flex-col">
+<span class="text-[13px] font-medium tracking-[0.25em] text-ink uppercase">Saksham Jain</span>
+<span class="text-[9px] font-normal tracking-[0.35em] text-ink-muted uppercase -mt-0.5">Portfolio</span>
+</div>
+</div>
+<!-- Editorial Text Navigation -->
+<nav class="hidden md:flex items-center space-x-10" data-purpose="main-navigation">
+<a class="text-xs tracking-[0.2em] uppercase text-ink-muted hover:text-ink transition-colors duration-200" href="#about">About</a>
+<a class="text-xs tracking-[0.2em] uppercase text-ink-muted hover:text-ink transition-colors duration-200" href="#skills">Skills</a>
+<div class="relative py-1">
+<a class="text-xs tracking-[0.2em] uppercase text-ink font-medium" href="#projects">Projects</a>
+<!-- Active Golden Underline Marker -->
+<span class="absolute bottom-0 left-0 right-0 h-[1.5px] bg-[#D4AF37] rounded-full"></span>
+</div>
+<a class="text-xs tracking-[0.2em] uppercase text-ink-muted hover:text-ink transition-colors duration-200" href="#contact">Contact</a>
+</nav>
+<!-- Temporal Context Indicator -->
+<div class="flex items-center gap-2 text-ink-muted text-[11px] tracking-[0.18em] uppercase" data-purpose="chapter-status"><span class="w-1.5 h-1.5 rounded-full bg-amber-sun animate-pulse"></span><span class="font-medium tracking-[0.2em]">CHAPTER 04 · 04:30 PM</span></div>
+</header>
+<!-- END: Site Header -->
+<!-- BEGIN: Main Page Content -->
+<main class="relative z-20 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 pt-16 pb-24 space-y-28">
+<!-- BEGIN: Chapter Introduction -->
+<section class="space-y-6" data-purpose="chapter-intro">
+<div class="flex items-center gap-3"><span class="w-8 h-[1px] bg-amber-gold/60"></span><span class="text-[11px] font-medium tracking-[0.25em] uppercase text-ink-muted">04 / CHAPTER — PROJECTS</span><span class="w-8 h-[1px] bg-amber-gold/60"></span></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+<div class="lg:col-span-7">
+<h1 class="text-5xl sm:text-6xl md:text-7xl font-editorial-serif font-normal text-ink leading-[1.08] tracking-tight">
+            Things I’ve <span class="italic font-light text-ink-deep">built.</span>
+</h1>
+</div>
+<div class="lg:col-span-5 pb-2">
+<p class="font-editorial-serif italic text-lg md:text-xl text-ink-muted/90 font-light leading-relaxed border-l border-amber-gold/40 pl-5">
+            “Software crafted through curiosity, technical rigor, and deliberate restraint.”
+          </p>
+</div>
+</div>
+</section>
+<!-- END: Chapter Introduction -->
+<!-- BEGIN: Projects Landmark Showcase -->
+<div class="space-y-28 md:space-y-36" data-purpose="projects-landmarks-container"><!-- ======================================================== -->
+<!-- LANDMARK 01: ASSETARRAY (Dominant Primary Anchor Landmark) -->
+<!-- ======================================================== -->
+<article class="relative rounded-2xl border border-ink/5 backdrop-blur-md p-8 md:p-12 lg:p-14 transition-all duration-700 hover:shadow-2xl hover:shadow-amber-gold/10 overflow-hidden bg-white/40" data-purpose="landmark-assetarray">
+<div aria-hidden="true" class="absolute -right-20 -top-20 w-96 h-96 bg-amber-sun/20 rounded-full blur-3xl pointer-events-none"></div>
+<div aria-hidden="true" class="absolute -left-20 -bottom-20 w-80 h-80 bg-water-pale/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center relative z-10">
+<!-- Primary Editorial Profile -->
+<div class="lg:col-span-6 space-y-6">
+<div class="flex items-center gap-2.5">
+<span class="text-[10px] font-semibold tracking-[0.28em] uppercase text-ink-muted">01 / PRIMARY LANDMARK</span>
+<span class="w-1.5 h-1.5 rounded-full bg-amber-accent"></span>
+<span class="text-[11px] tracking-widest text-ink-light uppercase">FULL-STACK · FINTECH · AI</span>
+</div>
+<div class="space-y-3">
+<h2 class="text-4xl sm:text-5xl lg:text-6xl font-editorial-serif text-ink tracking-tight font-normal">
+          AssetArray
+        </h2>
+<p class="text-ink-muted text-base leading-relaxed font-normal">
+          A wealth management platform combining portfolio analytics, risk intelligence, AI-assisted decision support, secure data workflows, cloud synchronization, and financial tools.
+        </p>
+</div>
+<!-- Architectural Stack -->
+<div class="pt-2">
+<span class="text-[10px] font-medium tracking-[0.2em] uppercase text-ink-light block mb-2">Architectural Stack</span>
+<p class="text-xs sm:text-[13px] tracking-wide text-ink-deep/80 font-mono leading-relaxed">
+          React Native · TypeScript · Node.js · Express · MongoDB · Firebase · AI APIs
+        </p>
+</div>
+<!-- Action Buttons -->
+<div class="pt-4 flex flex-wrap items-center gap-5"><a class="inline-flex items-center gap-2.5 px-6 py-2.5 rounded-full bg-ink text-ivory text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-ink-deep hover:shadow-lg hover:shadow-ink/20" href="#assetarray-demo"><span class="">View Project</span><span class="text-amber-sun">→</span></a><a class="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full border border-ink/20 text-xs font-medium tracking-wider uppercase text-ink hover:border-[#B88746] hover:text-[#B88746] transition-all" href="#assetarray-code"><span class="">GitHub</span><span class="text-xs font-serif">↗</span></a></div>
+</div>
+<!-- Atmospheric Visual Artifact & Frame -->
+<div class="lg:col-span-6">
+<div class="rounded-xl border border-ink/10 bg-white/70 p-6 md:p-8 backdrop-blur-md shadow-inner space-y-6">
+<!-- Top bar metadata -->
+<div class="flex items-center justify-between border-b border-ink/10 pb-4">
+<div class="flex items-center space-x-2">
+<span class="w-2 h-2 rounded-full bg-ink/20"></span>
+<span class="w-2 h-2 rounded-full bg-amber-sun/60"></span>
+<span class="w-2 h-2 rounded-full bg-water-mist/50"></span>
+</div>
+<div class="text-[10px] font-mono tracking-widest text-ink-muted uppercase">Risk Model: Alpha-09 // Active</div>
+</div>
+<!-- Valuation line chart representation -->
+<div class="space-y-4">
+<div class="flex justify-between items-baseline">
+<div>
+<span class="text-[10px] uppercase font-mono tracking-wider text-ink-light">Consolidated Valuation</span>
+<div class="text-2xl sm:text-3xl font-serif text-ink tracking-tight mt-0.5">$1,842,910.45</div>
+</div>
+<div class="text-right">
+<span class="inline-flex items-center text-xs font-mono font-medium text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded border border-emerald-200/50">
+                +14.2% Sharpe Optimal
+              </span>
+</div>
+</div>
+<div class="pt-2">
+<svg class="w-full h-24 overflow-visible" fill="none" viewBox="0 0 400 110">
+<defs>
+<linearGradient id="waveGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#E7C49D" stop-opacity="0.35"></stop>
+<stop offset="100%" stop-color="#E7C49D" stop-opacity="0.0"></stop>
+</linearGradient>
+</defs>
+<path d="M0 80 Q 70 30, 140 55 T 280 40 T 400 20 L 400 110 L 0 110 Z" fill="url(#waveGradient)"></path>
+<line stroke="#14202D" stroke-dasharray="3 3" stroke-opacity="0.08" x1="0" x2="400" y1="95" y2="95"></line>
+<line stroke="#14202D" stroke-dasharray="3 3" stroke-opacity="0.08" x1="0" x2="400" y1="55" y2="55"></line>
+<path d="M0 80 Q 70 30, 140 55 T 280 40 T 400 20" stroke="#172433" stroke-linecap="round" stroke-width="1.8"></path>
+<circle cx="280" cy="40" fill="#D4AF37" r="4" stroke="#FFFFFF" stroke-width="2"></circle>
+</svg>
+</div>
+<!-- Status grid inside preview -->
+<div class="grid grid-cols-2 gap-3 pt-2 border-t border-ink/5 text-center">
+<div class="p-2.5 bg-white/40 rounded border border-ink/5">
+<div class="text-[9px] font-mono text-ink-light uppercase">Neural Sync</div>
+<div class="text-xs font-mono font-medium text-ink mt-0.5">Sub-12ms</div>
+</div>
+<div class="p-2.5 bg-white/40 rounded border border-ink/5">
+<div class="text-[9px] font-mono text-ink-light uppercase">Cold Storage</div>
+<div class="text-xs font-mono font-medium text-ink mt-0.5">Encrypted</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- ======================================================== -->
+<!-- ASYMMETRICAL SECONDARY LANDMARKS: STAGGERED ALONG JOURNEY -->
+<!-- ======================================================== -->
+<div class="space-y-24 md:space-y-32" data-purpose="secondary-landmarks-flow">
+<!-- LANDMARK 02: SIMULATION-ALCHEMIST (Staggered Center-Left) -->
+<article class="w-full lg:w-11/12 mr-auto relative rounded-2xl border border-ink/5 backdrop-blur-md p-8 md:p-10 transition-all duration-500 hover:shadow-xl hover:shadow-water-mist/10 overflow-hidden bg-white/40" data-purpose="landmark-simulation-alchemist">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<div class="lg:col-span-6 space-y-5">
+<div class="flex items-center gap-2">
+<span class="text-[10px] font-semibold tracking-[0.25em] uppercase text-ink-muted">02 / SECONDARY LANDMARK</span>
+<span class="w-1.5 h-1.5 rounded-full bg-water-mist"></span>
+<span class="text-[11px] tracking-widest text-ink-light uppercase">SCIENTIFIC COMPUTING · PYTHON · SYSTEMS</span>
+</div>
+<div class="space-y-3">
+<h2 class="text-3xl sm:text-4xl font-editorial-serif text-ink tracking-tight font-normal">
+            Simulation-Alchemist
+          </h2>
+<p class="text-ink-muted text-sm sm:text-base leading-relaxed">
+            A simulation composition framework connecting reaction-diffusion, physics, and agent-based systems through a deterministic feedback loop.
+          </p>
+</div>
+<div>
+<span class="text-[10px] font-medium tracking-[0.2em] uppercase text-ink-light block mb-1.5">Stack Components</span>
+<p class="text-xs font-mono text-ink-deep/80">
+            Python · py-pde · Pymunk · Mesa
+          </p>
+</div>
+<div class="pt-4 flex items-center gap-6"><a class="inline-flex items-center gap-2.5 px-6 py-2.5 rounded-full bg-ink text-ivory text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-ink-deep hover:shadow-lg hover:shadow-ink/20" href="#sim-demo"><span class="">View Project</span><span class="text-amber-sun">→</span></a><a class="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full border border-ink/20 text-xs font-medium tracking-wider uppercase text-ink hover:border-[#B88746] hover:text-[#B88746] transition-all" href="#sim-code"><span class="">GitHub</span><span class="text-xs font-serif">↗</span></a></div>
+</div>
+<!-- Scientific Visualizer Artifact -->
+<div class="lg:col-span-6">
+<div class="rounded-xl border border-ink/10 bg-[#14202D]/90 p-5 text-ivory relative overflow-hidden">
+<div class="flex justify-between items-center text-[10px] font-mono text-ivory/60 pb-3 border-b border-ivory/10">
+<span class="">MODEL: Gray-Scott PDE + Verlet Integrator</span>
+<span class="text-amber-sun font-semibold">T = 1,420.80s</span>
+</div>
+<div class="py-6 flex items-center justify-center relative">
+<svg class="w-full h-24 overflow-visible" viewBox="0 0 280 100">
+<ellipse cx="140" cy="50" rx="90" ry="36" stroke="#9FC3CF" stroke-dasharray="2 4" stroke-opacity="0.6" stroke-width="0.8"></ellipse>
+<ellipse cx="140" cy="50" rx="65" ry="26" stroke="#E7C49D" stroke-opacity="0.75" stroke-width="1.2"></ellipse>
+<ellipse cx="140" cy="50" rx="40" ry="16" stroke="#F1CF98" stroke-opacity="0.9" stroke-width="1.5"></ellipse>
+<path d="M40 70 Q 100 10, 140 50 T 240 30" fill="none" stroke="#FFFFFF" stroke-dasharray="4 4" stroke-opacity="0.4" stroke-width="1"></path>
+<path d="M60 30 Q 120 90, 160 50 T 220 70" fill="none" stroke="#E7C49D" stroke-opacity="0.5" stroke-width="0.8"></path>
+<circle cx="95" cy="45" fill="#E7C49D" r="2.5"></circle>
+<circle cx="140" cy="50" fill="#FFFFFF" r="3.5"></circle>
+<circle cx="185" cy="55" fill="#9FC3CF" r="2.5"></circle>
+<circle cx="210" cy="38" fill="#E7C49D" r="2"></circle>
+</svg>
+</div>
+<div class="text-[10px] font-mono text-ivory/70 flex justify-between">
+<span class="">∇²u = du/dt - F(1-u) + uv²</span>
+<span class="text-water-pale">Convergence: Normal</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- LANDMARK 03: THE SIX YARDS (Staggered Diagonal Offset to Right) -->
+<article class="w-full lg:w-11/12 ml-auto relative rounded-2xl border border-ink/5 backdrop-blur-md p-8 md:p-10 transition-all duration-500 hover:shadow-xl hover:shadow-amber-gold/10 overflow-hidden bg-white/40" data-purpose="landmark-the-six-yards">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<div class="lg:col-span-6 space-y-5 lg:order-2">
+<div class="flex items-center gap-2">
+<span class="text-[10px] font-semibold tracking-[0.25em] uppercase text-ink-muted">03 / SECONDARY LANDMARK</span>
+<span class="w-1.5 h-1.5 rounded-full bg-amber-sun"></span>
+<span class="text-[11px] tracking-widest text-ink-light uppercase">EDITORIAL COMMERCE · FRONTEND · RETAIL</span>
+</div>
+<div class="space-y-3">
+<h2 class="text-3xl sm:text-4xl font-editorial-serif text-ink tracking-tight font-normal">
+            The Six Yards
+          </h2>
+<p class="text-ink-muted text-sm sm:text-base leading-relaxed">
+            A responsive fashion e-commerce experience built around deliberate collections, bespoke product flows, and persistent client-side state.
+          </p>
+</div>
+<div>
+<span class="text-[10px] font-medium tracking-[0.2em] uppercase text-ink-light block mb-1.5">Frontend Architecture</span>
+<p class="text-xs font-mono text-ink-deep/80">
+            React · Vite · JavaScript · React Router
+          </p>
+</div>
+<div class="pt-4 flex items-center gap-6"><a class="inline-flex items-center gap-2.5 px-6 py-2.5 rounded-full bg-ink text-ivory text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-ink-deep hover:shadow-lg hover:shadow-ink/20" href="#sixyards-live"><span class="">View Live</span><span class="text-amber-sun">→</span></a><a class="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full border border-ink/20 text-xs font-medium tracking-wider uppercase text-ink hover:border-[#B88746] hover:text-[#B88746] transition-all" href="#sixyards-code"><span class="">GitHub</span><span class="text-xs font-serif">↗</span></a></div>
+</div>
+<!-- Editorial Vignette Display -->
+<div class="lg:col-span-6 lg:order-1">
+<div class="rounded-xl border border-ink/10 bg-white/70 p-5 space-y-4 backdrop-blur-md">
+<div class="flex justify-between items-center text-[10px] uppercase tracking-widest text-ink-muted border-b border-ink/5 pb-2.5">
+<span class="font-serif italic font-medium text-xs">Curated Heritage</span>
+<span class="font-mono">Vol. II</span>
+</div>
+<div class="grid grid-cols-2 gap-3 pt-1">
+<div class="bg-amber-gold/15 rounded-lg p-3 border border-amber-gold/20 flex flex-col justify-between h-28">
+<span class="text-[9px] uppercase tracking-wider text-ink-light">Handloom Textures</span>
+<div>
+<div class="font-serif text-sm text-ink font-normal">Chanderi Silk</div>
+<div class="text-[10px] text-ink-muted font-mono mt-0.5">₹ 14,800</div>
+</div>
+</div>
+<div class="bg-water-mist/10 rounded-lg p-3 border border-water-mist/20 flex flex-col justify-between h-28">
+<span class="text-[9px] uppercase tracking-wider text-ink-light">Artisan Weave</span>
+<div>
+<div class="font-serif text-sm text-ink font-normal">Kanjivaram Gold</div>
+<div class="text-[10px] text-ink-muted font-mono mt-0.5">₹ 28,500</div>
+</div>
+</div>
+</div>
+<div class="flex justify-between items-center text-[10px] font-mono text-ink-muted pt-1">
+<span class="">Client State: Active Bag (2)</span>
+<span class="text-ink-deep font-semibold">Router v6 Ready</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div></div>
+<!-- END: Projects Landmark Showcase -->
+<!-- BEGIN: Atmospheric Water Divider -->
+<div aria-hidden="true" class="w-full py-6 flex justify-center">
+<div class="w-full max-w-4xl h-[1px] water-line-divider"></div>
+</div>
+<!-- END: Atmospheric Water Divider -->
+<!-- BEGIN: Chapter Bottom Navigation / Horizon Indicator -->
+<footer class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] tracking-[0.2em] uppercase text-ink-muted" data-purpose="chapter-footer">
+<!-- Philosophy signature -->
+<div class="flex items-center gap-2">
+<span class="text-amber-accent">✦</span>
+<span class="font-light">Built with purpose and precision</span>
+</div>
+<!-- Directional Chapter Transition to Dusk & Moonlight -->
+<a class="group flex items-center gap-2 text-ink hover:text-ink-deep transition-colors duration-200" href="#contact"><span class="tracking-[0.22em] font-medium">CONTINUE TO SUNSET · CHAPTER 05</span><span class="inline-block transition-transform duration-300 group-hover:translate-y-0.5 text-amber-accent">↓</span></a>
+</footer>
+<!-- END: Chapter Bottom Navigation / Horizon Indicator -->
+</main>
+<!-- END: Main Page Content -->
+
+
+</body></html>

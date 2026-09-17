@@ -1,0 +1,246 @@
+<!DOCTYPE html><html class="h-full scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Skills — Saksham Jain</title>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#142132',
+              gold: '#E8C58D',
+              amber: '#D4A373',
+              slate: '#475569',
+              slateLight: '#76949F',
+              ivory: '#FAF8F5'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+<style data-purpose="custom-typography">
+    /* Subtle editorial letter spacing & smooth rendering */
+    body {
+      font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .font-editorial-serif {
+      font-feature-settings: "lnum", "liga", "swsh";
+    }
+    .text-balance {
+      text-wrap: balance;
+    }
+  </style>
+<style data-purpose="scenery-layering">
+    /* Delicate daylight atmospheric overlay for pristine typography contrast without darkening the landscape */
+    .sky-subtle-glow {
+      background: linear-gradient(
+        180deg,
+        rgba(250, 248, 245, 0.45) 0%,
+        rgba(250, 248, 245, 0.20) 45%,
+        rgba(250, 248, 245, 0.0) 75%,
+        rgba(20, 33, 50, 0.04) 100%
+      );
+    }
+    .hairline {
+      height: 1px;
+      background: linear-gradient(90deg, rgba(20, 33, 50, 0.18) 0%, rgba(212, 163, 115, 0.35) 50%, rgba(20, 33, 50, 0.08) 100%);
+    }
+  </style>
+</head>
+<body class="min-h-screen text-brand-navy font-sans antialiased bg-brand-ivory relative overflow-x-hidden selection:bg-brand-gold/30 selection:text-brand-navy flex flex-col justify-between">
+<!-- BEGIN: ContinuousLandscapeBackground -->
+<div aria-hidden="true" class="fixed inset-0 pointer-events-none z-0">
+<img alt="Daylight landscape continuation" class="w-full h-full object-cover object-center transform scale-100" src="https://lh3.googleusercontent.com/aida/AEtjO1XvGHX2zabT6U90xKpb5m5KigkiusCq2VaAgrtkHa3LyG4dc2HXPZEe2h5XN-mChm2HQJ2Qse38RV5xtJVyV6NdalgNPL694BnIMf5Z6kQN5c_uInIDuoPMPuosdku-mztbtJW2-np2l-lTI7IFyHgCsbYyACh6__jJEuYpEeIa6RvE4QEyOOMl1ZW2HcJSzLNEBXHYktFwq2d86250gYyJZ_4iog77brezEfJ3oxLlA0kG-bJyC1Z_KL6J">
+<div class="absolute inset-0 sky-subtle-glow"></div>
+</div>
+<!-- END: ContinuousLandscapeBackground -->
+<!-- BEGIN: MainHeader -->
+<header class="relative z-20 w-full pt-8 sm:pt-10 px-6 sm:px-12 lg:px-20 tracking-wider">
+<div class="max-w-7xl mx-auto flex items-center justify-between border-b border-brand-navy/10 pb-6">
+<!-- Brand & Identity Mark -->
+<a aria-label="Saksham Jain Home" class="group flex items-center space-x-3.5 focus:outline-none" href="#hero">
+<div class="w-8 h-8 transition-transform duration-500 ease-out group-hover:rotate-45" data-purpose="identity-emblem"><img src="https://lh3.googleusercontent.com/aida/AEtjO1VUDfcLjZYycES0-7ODcqmI2rtPME1xJ7KZuc91cxiyMBu8y-QXzDFrnXZKDlGWuKQkaSyBlnycprivrW8ei84P9duTwCTurnr7QHQCGKF4iCQtXbhf2i84mzTBN6-Z7mxtLPSQLeTKM54fBOJjL8lWz3iXuyRxgc7iLVafgTUoTaA2QYgz0GjJzzG0cBU51vWoww3EMmZMHms1relIq8kfjMB23Q2uhIEUywMDBb33-H5wXuYw7CdjQy-p" alt="Monogram Emblem" class="w-full h-full object-contain"></div>
+<div class="flex flex-col">
+<span class="text-xs sm:text-sm font-semibold tracking-[0.28em] text-brand-navy">SAKSHAM JAIN</span>
+<span class="text-[9px] tracking-[0.32em] text-brand-navy/50 font-medium">PORTFOLIO</span>
+</div>
+</a>
+<!-- Understated Navigation -->
+<nav aria-label="Main Navigation" class="hidden md:flex items-center space-x-9 text-xs tracking-[0.2em] font-medium">
+<a class="text-brand-navy/60 hover:text-brand-navy transition-colors py-1" href="#about">
+          ABOUT
+        </a>
+<a class="text-brand-navy relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1.5px] after:bg-brand-amber transition-colors" href="#skills">
+          SKILLS
+        </a>
+<a class="text-brand-navy/60 hover:text-brand-navy transition-colors py-1" href="#projects">
+          PROJECTS
+        </a>
+<a class="text-brand-navy/60 hover:text-brand-navy transition-colors py-1" href="#contact">
+          CONTACT
+        </a>
+</nav>
+<!-- Environmental Horizon & Chapter Marker -->
+<div class="flex items-center space-x-3 text-brand-navy/70">
+<div aria-hidden="true" class="w-1.5 h-1.5 rounded-full bg-brand-amber animate-pulse"></div>
+<span class="text-[11px] tracking-[0.22em] uppercase font-mono font-normal">CHAPTER 03 · 10:15 AM</span>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: SkillsMainContent -->
+<main class="relative z-10 flex-grow flex flex-col justify-center px-6 sm:px-12 lg:px-20 py-10 lg:py-14 max-w-7xl mx-auto w-full">
+<!-- Section Meta & Headline Hero Area -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-start mb-10 lg:mb-14">
+<div class="lg:col-span-6 lg:pr-4" data-purpose="editorial-primary-heading">
+<!-- Chapter Indicator Tag -->
+<div class="mb-6 sm:mb-8 flex items-center space-x-3" data-purpose="chapter-indicator"><span class="w-6 h-[1px] bg-brand-navy/20"></span><span class="text-xs tracking-[0.25em] font-medium text-brand-navy/55 uppercase font-sans">03 / CHAPTER — SKILLS</span><span class="w-6 h-[1px] bg-brand-navy/20"></span></div>
+<!-- Main Serif Editorial Display Statement -->
+<h1 class="font-serif font-editorial-serif text-5xl sm:text-6xl lg:text-7xl font-light text-brand-navy tracking-tight leading-[1.05] text-balance">
+            What I work with.
+          </h1>
+</div>
+<!-- Subtle Supporting Statement & Quote -->
+<div class="lg:col-span-6 lg:pt-6 flex flex-col justify-end" data-purpose="editorial-quote-support">
+<p class="font-serif italic text-xl sm:text-2xl text-brand-navy/90 font-light leading-relaxed max-w-lg">
+            “Tools change. The habit of learning stays.”
+          </p>
+<p class="mt-3 text-xs sm:text-sm text-brand-slate font-light leading-relaxed max-w-md">
+            Architectural deliberate detail, clean systems, and disciplined craftsmanship applied from fundamentals to full execution.
+          </p>
+</div>
+</section>
+<!-- Hairline Horizon Divider -->
+<div class="w-full hairline mb-12"></div>
+<!-- BEGIN: SkillsTypographicArchitecture -->
+<section class="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-8 lg:gap-x-14" data-purpose="skills-editorial-matrix">
+<!-- Column 01: Languages -->
+<div class="flex flex-col space-y-6 pt-0" data-purpose="skill-column-languages">
+<div class="flex items-center space-x-2 text-xs font-mono tracking-widest text-brand-amber font-medium">
+<span class="">01</span>
+<span class="w-2 h-[1px] bg-brand-amber/60"></span>
+<h2 class="tracking-[0.25em] text-brand-navy/55 uppercase font-sans font-semibold">LANGUAGES</h2>
+</div>
+<div class="space-y-4">
+<!-- Primary Visual Anchors -->
+<div class="space-y-1.5">
+<div class="font-serif text-2xl lg:text-3xl text-brand-navy font-medium tracking-tight hover:text-brand-amber transition-colors duration-200 cursor-default">
+                C++
+              </div>
+<div class="font-serif text-2xl lg:text-3xl text-brand-navy font-medium tracking-tight hover:text-brand-amber transition-colors duration-200 cursor-default">
+                TypeScript
+              </div>
+</div>
+<!-- Secondary Technologies -->
+<div class="pt-3 border-t border-brand-navy/15 space-y-1">
+<p class="text-sm font-sans text-brand-slate font-normal tracking-wide">JavaScript</p>
+<p class="text-sm font-sans text-brand-slate font-normal tracking-wide">Python</p>
+</div>
+</div>
+</div>
+<!-- Column 02: Development -->
+<div class="flex flex-col space-y-6 md:translate-y-2" data-purpose="skill-column-development">
+<div class="flex items-center space-x-2 text-xs font-mono tracking-widest text-brand-amber font-medium">
+<span class="">02</span>
+<span class="w-2 h-[1px] bg-brand-amber/60"></span>
+<h2 class="tracking-[0.25em] text-brand-navy/55 uppercase font-sans font-semibold">DEVELOPMENT</h2>
+</div>
+<div class="space-y-4">
+<!-- Primary Visual Anchors -->
+<div class="space-y-1.5">
+<div class="font-serif text-2xl lg:text-3xl text-brand-navy font-medium tracking-tight hover:text-brand-amber transition-colors duration-200 cursor-default">
+                React
+              </div>
+<div class="font-serif text-2xl lg:text-3xl text-brand-navy font-medium tracking-tight hover:text-brand-amber transition-colors duration-200 cursor-default">
+                Node.js
+              </div>
+</div>
+<!-- Secondary Technologies -->
+<div class="pt-3 border-t border-brand-navy/15 space-y-1">
+<p class="text-sm font-sans text-brand-slate font-normal tracking-wide">Express</p>
+<p class="text-sm font-sans text-brand-slate font-normal tracking-wide">Vite</p>
+</div>
+</div>
+</div>
+<!-- Column 03: Data & Cloud -->
+<div class="flex flex-col space-y-6 md:-translate-y-1" data-purpose="skill-column-data-cloud">
+<div class="flex items-center space-x-2 text-xs font-mono tracking-widest text-brand-amber font-medium">
+<span class="">03</span>
+<span class="w-2 h-[1px] bg-brand-amber/60"></span>
+<h2 class="tracking-[0.25em] text-brand-navy/55 uppercase font-sans font-semibold">DATA &amp; CLOUD</h2>
+</div>
+<div class="space-y-4">
+<!-- Primary Visual Anchors -->
+<div class="space-y-1.5">
+<div class="font-serif text-2xl lg:text-3xl text-brand-navy font-medium tracking-tight hover:text-brand-amber transition-colors duration-200 cursor-default">
+                MongoDB
+              </div>
+</div>
+<!-- Secondary Technologies -->
+<div class="pt-3 border-t border-brand-navy/15 space-y-1">
+<p class="text-sm font-sans text-brand-slate font-normal tracking-wide">Firebase</p>
+<p class="text-sm font-sans text-brand-slate font-normal tracking-wide">REST APIs</p>
+</div>
+</div>
+</div>
+<!-- Column 04: Tools -->
+<div class="flex flex-col space-y-6 md:translate-y-3" data-purpose="skill-column-tools">
+<div class="flex items-center space-x-2 text-xs font-mono tracking-widest text-brand-amber font-medium">
+<span class="">04</span>
+<span class="w-2 h-[1px] bg-brand-amber/60"></span>
+<h2 class="tracking-[0.25em] text-brand-navy/55 uppercase font-sans font-semibold">TOOLS</h2>
+</div>
+<div class="space-y-4">
+<!-- Primary Visual Anchors -->
+<div class="space-y-1.5">
+<div class="font-serif text-2xl lg:text-3xl text-brand-navy font-medium tracking-tight hover:text-brand-amber transition-colors duration-200 cursor-default">
+                Git
+              </div>
+<div class="font-serif text-2xl lg:text-3xl text-brand-navy font-medium tracking-tight hover:text-brand-amber transition-colors duration-200 cursor-default">
+                GitHub
+              </div>
+</div>
+<!-- Secondary Technologies -->
+<div class="pt-3 border-t border-brand-navy/15 space-y-1">
+<p class="text-sm font-sans text-brand-slate font-normal tracking-wide">VS Code</p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: SkillsTypographicArchitecture -->
+</main>
+<!-- END: SkillsMainContent -->
+<!-- BEGIN: HorizonFooterSurface -->
+<!-- Rests gracefully above the morning calm reflective water line -->
+<footer class="relative z-10 w-full px-6 sm:px-12 lg:px-20 pb-8 sm:pb-12 pt-6" data-purpose="chapter-footer">
+<div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 border-t border-brand-navy/10 pt-6">
+<!-- Left Credo -->
+<div class="flex items-center space-x-3 text-xs sm:text-sm font-serif italic text-brand-navy/75 tracking-wider" data-purpose="manifesto-quote">
+<span class="text-brand-amber font-mono not-italic text-xs">✦</span>
+<span class="tracking-wide">“Crafted through practice and curiosity”</span>
+</div>
+<!-- Right Chapter Progression Link -->
+<a class="group inline-flex items-center space-x-2.5 text-[11px] tracking-[0.24em] font-medium text-brand-navy/70 hover:text-brand-navy transition-all duration-300 uppercase py-1" data-purpose="scroll-cue" href="#projects">
+<span class="">CONTINUE TO PROJECTS</span>
+<span class="transform transition-transform duration-300 group-hover:translate-y-1 text-xs">↓</span>
+</a>
+</div>
+</footer>
+<!-- END: HorizonFooterSurface -->
+
+
+</body></html>
