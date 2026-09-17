@@ -2,7 +2,7 @@
 
 A cinematic, interactive portfolio website for Saksham Jain, a Computer Science & Engineering student at SKIT Jaipur and Software Developer.
 
-🌐 **Live Website**: [https://sakshams-portfolio-lime.vercel.app/](https://sakshams-portfolio-lime.vercel.app/)
+🌐 **Live Website**: [https://saksham-jain-portfolio.vercel.app/](https://saksham-jain-portfolio.vercel.app/)
 
 The application presents a continuous landscape experience that dynamically evolves through time of day as you scroll through projects, skills, and background.
 
@@ -136,7 +136,7 @@ A responsive fashion e-commerce storefront featuring curated collection gallerie
 
 ## 📬 Contact & Links
 
-- **Live Portfolio**: [https://sakshams-portfolio-lime.vercel.app/](https://sakshams-portfolio-lime.vercel.app/)
+- **Live Portfolio**: [https://saksham-jain-portfolio.vercel.app/](https://saksham-jain-portfolio.vercel.app/)
 - **Author**: Saksham Jain
 - **Email**: [jainsaksham8b@gmail.com](mailto:jainsaksham8b@gmail.com)
 - **GitHub**: [https://github.com/SakshamJ01](https://github.com/SakshamJ01)
