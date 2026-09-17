@@ -128,19 +128,20 @@ export const PROJECTS = [
     type: "SECONDARY LANDMARK",
     name: "Simulation-Alchemist",
     category: "SCIENTIFIC COMPUTING · PYTHON · SYSTEMS",
-    description: "Python simulation-composition framework connecting reaction-diffusion, physics and agent-based systems through a deterministic feedback loop.",
+    description: "Simulation Alchemist is an open-source framework for composing multiple independent simulation engines into unified, deterministic, closed-loop simulated worlds.\n\nThe platform bridges continuous reaction-diffusion PDEs, rigid-body mechanics, agent-based decision systems, and continuous network diffusion into a single modular architecture. It provides declarative world definition, automated macro-step scheduling, pre-execution capability contract validation, multi-objective behavioral characterization, and a modern Researcher Workbench web application for interactive experimentation and research automation.",
     technologies: [
       "Python",
       "py-pde",
       "Pymunk",
-      "Mesa"
+      "Mesa",
+      "Researcher Workbench"
     ],
-    // Keep empty to use fallback illustrative visualization (no fabricated screenshots)
-    image: "",
+    // Path to screenshot asset
+    image: "/assets/projects/simulation-alchemist/hero.png",
     liveUrl: null,
     githubUrl: "https://github.com/SakshamJ01/Simulation-Alchemist",
     accent: "#91AEB7",
-    previewLabel: "SIMULATION-ALCHEMIST / SIMULATION VISUALIZATION"
+    previewLabel: "SIMULATION-ALCHEMIST / RESEARCHER WORKBENCH PREVIEW"
   },
   {
     id: "the-six-yards",

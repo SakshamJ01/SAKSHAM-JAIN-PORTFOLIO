@@ -49,7 +49,7 @@ A wealth management platform combining portfolio analytics, risk intelligence, A
 - **GitHub Repository**: [https://github.com/SakshamJ01/AssetArray](https://github.com/SakshamJ01/AssetArray)
 
 ### 02. Simulation-Alchemist
-A Python simulation composition framework connecting reaction-diffusion partial differential equations (PDEs), 2D physics engines, and agent-based models through a deterministic feedback loop.
+An open-source framework for composing multiple independent simulation engines (reaction-diffusion PDEs, rigid-body mechanics, agent-based decision systems, continuous network diffusion) into unified, deterministic, closed-loop simulated worlds with an interactive Researcher Workbench web application.
 - **GitHub Repository**: [https://github.com/SakshamJ01/Simulation-Alchemist](https://github.com/SakshamJ01/Simulation-Alchemist)
 
 ### 03. The Six Yards

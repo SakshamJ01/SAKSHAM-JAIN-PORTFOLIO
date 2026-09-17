@@ -200,7 +200,7 @@ function ProjectsChapter({ scrollToChapter }) {
                 <h3 className="text-3xl sm:text-4xl font-editorial-serif text-ink tracking-tight font-normal">
                   {p2.name}
                 </h3>
-                <p className="text-ink-muted text-sm sm:text-base leading-relaxed">
+                <p className="text-ink-muted text-sm sm:text-base leading-relaxed whitespace-pre-line">
                   {p2.description}
                 </p>
               </div>
@@ -242,9 +242,10 @@ function ProjectsChapter({ scrollToChapter }) {
                 <div className="rounded-xl border border-ink/10 overflow-hidden shadow-md bg-white/80">
                   <img
                     src={p2.image}
-                    alt={p2.name}
-                    className="w-full h-auto object-cover rounded-xl"
+                    alt="Simulation Alchemist — Researcher Workbench & Multi-Engine Simulation Framework"
+                    className="w-full h-auto block rounded-xl object-cover"
                     loading="lazy"
+                    decoding="async"
                   />
                 </div>
               ) : (
