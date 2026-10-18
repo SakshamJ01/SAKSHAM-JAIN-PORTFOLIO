@@ -44,13 +44,15 @@ export default function Header({ activeChapterIndex, scrollToChapter, scrollProg
           className="group flex items-center gap-3.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded-lg p-1 text-left"
           aria-label="Saksham Jain Home"
         >
-          <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-current/20 bg-white/40 backdrop-blur-md flex items-center justify-center p-1.5 shadow-xs group-hover:scale-105 transition-all duration-300 overflow-hidden">
-            <svg viewBox="0 0 36 36" fill="none" className="w-full h-full">
-              <circle cx="18" cy="18" r="16" stroke="currentColor" strokeWidth="1.2" strokeDasharray="2 3" opacity="0.4" />
-              <path d="M12 18C12 14.6863 14.6863 12 18 12C21.3137 12 24 14.6863 24 18" stroke="#E8C58D" strokeWidth="2" strokeLinecap="round" />
-              <circle cx="18" cy="18" r="3.5" fill="#E8C58D" />
-              <path d="M10 24L18 20L26 24" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
-            </svg>
+          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center group-hover:scale-105 transition-all duration-300 overflow-hidden">
+            <img
+              src="/assets/emblem/sun-moon.png"
+              alt=""
+              width="40"
+              height="40"
+              className="w-full h-full animate-emblem-float"
+              decoding="async"
+            />
           </div>
           <div className="flex flex-col">
             <span className={`font-serif tracking-[0.25em] text-xs sm:text-sm font-semibold uppercase ${textColorClass} transition-colors`}>

@@ -91,6 +91,16 @@ body {
   animation: twinkle 3.5s ease-in-out infinite alternate;
 }
 
+/* Header sun-moon emblem float (mirrors Blender EmblemFloat animation) */
+@keyframes emblemFloat {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50% { transform: translateY(-2px) rotate(4deg); }
+}
+
+.animate-emblem-float {
+  animation: emblemFloat 4.5s ease-in-out infinite;
+}
+
 /* Prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
   *,
